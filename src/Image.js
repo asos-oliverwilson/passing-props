@@ -1,4 +1,6 @@
 import React from "react";
-export default function Image({ url }) {
+const Image = ({ url }) => {
   return <img className={"center"} src={url} />;
-}
+};
+
+export default Image;

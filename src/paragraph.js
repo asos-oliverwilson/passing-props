@@ -1,4 +1,6 @@
 import React from "react";
-export default function Paragraph(props) {
+const Paragraph = props => {
   return <p>{props.description}</p>;
-}
+};
+
+export default Paragraph;
