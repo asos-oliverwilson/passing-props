@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "./title";
 import Paragraph from "./paragraph";
-import Image from "./Image";
+import Image from "./image";
 
 const App = () => {
   const titleDescription = "this is a destructured prop.";
